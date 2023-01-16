@@ -1,4 +1,4 @@
-FROM python:3.9-alpine
+FROM python:3.9
 
 RUN pip install click==7.1.2 \
 	Flask==1.1.2 \
