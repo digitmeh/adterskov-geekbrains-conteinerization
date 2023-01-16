@@ -10,4 +10,4 @@ ADD . /app.py
 
 EXPOSE 8080
 
-ENTRYPOINT python /app/app.py runserver 0.0.0.0:8080
+ENTRYPOINT python ./app.py runserver 0.0.0.0:8080
