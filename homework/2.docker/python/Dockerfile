@@ -1,11 +1,6 @@
 FROM python:3.9
 
-RUN pip install click==7.1.2 \
-	Flask==1.1.2 \
-	itsdangerous==1.1.0 \
-	Jinja2==2.11.2 \
-	MarkupSafe==1.1.1 \
-	Werkzeug==1.0.1
+RUN pip install -r requirements.txt
 
 ADD . /app
 
